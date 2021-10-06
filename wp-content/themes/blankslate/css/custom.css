@@ -1,0 +1,117 @@
+.mainContainer {
+	box-sizing: border-box;
+	display: grid;
+	height: 100vh;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas:
+		"B A A A  A A A A  A A A A  A A A A"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B C C C  C C C C  C C C C  C C C C"
+		"B D D D  D D D D  D D D D  D D D D";
+}
+
+.indexHeader {
+	background-color: #cf3737;
+	color: black;
+	text-align: center;
+	grid-area: A;
+	padding-top: 2.5rem;
+}
+
+.indexContent {
+	grid-area: C;
+	background-color: rgb(44, 202, 16);
+	color: black;
+	text-align: center;
+	padding-top: 5rem;
+}
+.indexSidebar {
+	background-color: #473bb9;
+	color: black;
+	grid-area: B;
+}
+
+.aside .content{
+    display: grid;
+    gap: 2rem;
+
+    grid-template-areas:
+    
+    "A A A  A A A  A A A"
+
+    "B B B  B B B  B B B"
+
+    "C C C  C C C  C C C"
+
+    "D D D  D D D  D D D"
+
+    "E E E  E E E  E E E"
+
+    "F F F  F F F  F F F"
+
+    ;
+}
+
+.aside .content .row1 {
+    grid-area: A;
+    background-color: #0e0d0d;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 50px;
+}
+
+.aside .content .row2 {
+    grid-area: B;
+    background-color: #0e0d0d;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 50px;
+}
+
+.aside .content .row3 {
+    grid-area: C;
+    background-color: #0e0d0d;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 50px;
+}
+
+.aside .content .row4 {
+    grid-area: D;
+    background-color: #0e0d0d;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 50px;
+}
+
+.aside .content .row5 {
+    grid-area: E;
+    background-color: #0e0d0d;    
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 50PX;
+}
+
+.aside .content .row6 {
+    grid-area: F;
+    background-color: #0e0d0d;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 50px;
+}
+
+.indexFooter {
+	background-color: #0e0d0d;
+	border-top: 2px solid gray;
+	color: #f8f8f8;
+	text-align: center;
+	grid-area: D;
+	padding-top: 2rem;
+}

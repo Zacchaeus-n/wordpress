@@ -76,3 +76,4 @@ function sub_page_employee_plugin_display_action()
 {
     require_once(WP_PLUGIN_DIR . '/employee_plugin/inc/display_employee_data.php');
 }
+
