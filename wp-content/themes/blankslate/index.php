@@ -5,7 +5,7 @@
         </div>
         <!-- content of the page -->
         <div class="indexContent">
-            <h1>THIS IS THE CONTENT AREA OF THE SITE</h1>
+            
         </div>
 
         <div class="indexSidebar">

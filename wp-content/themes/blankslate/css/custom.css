@@ -27,13 +27,13 @@
 
 .indexContent {
 	grid-area: C;
-	background-color: rgb(44, 202, 16);
+	/* background-color: rgb(44, 202, 16); */
 	color: black;
 	text-align: center;
 	padding-top: 5rem;
 }
 .indexSidebar {
-	background-color: #473bb9;
+	/* background-color: #473bb9; */
 	color: black;
 	grid-area: B;
 }
