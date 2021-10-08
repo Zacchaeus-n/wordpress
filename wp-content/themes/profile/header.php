@@ -18,7 +18,8 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 0 2rem;
+        background-color: tomato;
+        padding: 1rem 2rem;
     }
 
     .z-brand {
@@ -44,7 +45,7 @@
 
 <div class="header">
     <header class="wrap-nav">
-        <div class="z-brand">ZPROFILE</div>
+        <div class="z-brand"><a href="http://localhost/first_wp/">ZPROFILE</a></div>
         <nav class="z-nav">
             <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
         </nav>
